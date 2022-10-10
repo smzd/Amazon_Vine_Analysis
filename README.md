@@ -1,15 +1,17 @@
-                                              ##Overview of the analysis
+                                            ##Overview of the analysis
 
 We have access to approximately 50 Amazon Vine review datasets in this project. Among them, we chose the baby product review dataset. We used PySpark to perform the Extract, transform the data, connect to an AWS relational database instance and load the transformed data into an SQL database. We used PySpark to review bias toward favorable reviews from members.
 
 Below is an example using ELT process on the Amazon baby products reviews as well as utilizing PySPark platform.
 
 ![](https://github.com/smzd/Amazon_Vine_Analysis/blob/main/Resources/vine.png)
+Fig: Vine Dataframe
 
 
-                                                    ##Results
+                                                  ##Results
                                                     
  ![](https://github.com/smzd/Amazon_Vine_Analysis/blob/main/Resources/percent.png)
+ Fig: Total Ratings
                                                     
 •	How many Vine reviews and non-Vine reviews were there?
 
@@ -24,7 +26,7 @@ Total Vine Reviews are 463. Total Non-Vine Reviews are 25079.
 43.62% of Vine reviews were five stars. 47.96% of non-Vine reviews were five stars.
 
 
-                                                      ##Summary
+                                               ##Summary
                                                       
 A positive bias refers to a tendency to hold positive expectations. Total vine reviews were 1.85%, much smaller than non-vine reviews. When we analyzed the percentage of 5 stars reviews, the numbers are similar; both vine and non-vine reviews are below 50%. We can conclude that there is no evidence of positive bias.
 
